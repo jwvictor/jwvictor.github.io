@@ -3,7 +3,7 @@ layout: post
 title: Deep Everything (Part I)
 ---
 
-Back in the old days of machine learning -- roughly 2007 -- there wasn't much agreement as to which models would ultimately lead us to the AI promised land. There were a variety of competing theories, deeply rooted in the philosophy of machine learning, and academics were fiercely protective of their viewpoint.
+Back in the old days of machine learning -- roughly 2005 -- there wasn't much agreement as to which models would ultimately lead us to the AI promised land. There were a variety of competing theories, deeply rooted in the philosophy of machine learning, and academics were fiercely protective of their viewpoint.
 
 The first question was whether focus should be placed on _generative_ or simply _discriminative_ models. A _generative_ model is, roughly, one in which "the full story of the data" is explained by the model -- that is, the model is based on a story of the data was _generated_. A discriminative model, on the other hand, simply looked at every problem like a black box: the question was just how to look at the data and make predictions, with no regard for how the data came to be, or, even less, what kind of data it is.
 
