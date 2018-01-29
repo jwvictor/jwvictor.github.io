@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Jason Victor and I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I only do contract work under special circumstances or when I'm really interested in the domain.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jasonvproject@gmail.com](mailto:jasonvproject@gmail.com)
