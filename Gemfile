@@ -1,1 +1,2 @@
-gem "jekyll-swiss"
+source "https://rubygems.org"
+gemspec
