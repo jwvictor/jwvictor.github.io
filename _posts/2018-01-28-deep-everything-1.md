@@ -41,7 +41,7 @@ The traditional understanding in statistics is that the more the model has to le
 
 ---
 
-So we start with a random solution, and iteratively improve it until it seems, objectively, "pretty good." And, there are usually infinitely many other such solutions that would yield identical results, if we find ourselves along a ridge or saddle. However, we don't concern ourselves with these geometric curiosities -- we instead content ourselves with the fact that the algorithm killed it on the benchmark data set. And that's that.
+So we start with a random solution, and iteratively improve it until it seems, objectively, "pretty good." And, there are usually infinitely many other such solutions that would yield identical results, if we find ourselves in a valley or along a ridge. However, we don't concern ourselves with these geometric curiosities -- we instead content ourselves with the fact that the algorithm killed it on the benchmark data set. And that's that.
 
 Indeed, criticism of the magic came into the spotlight when Ali Rahimi referred to deep learning research as "alchemy" in his NIPS "test of time" award speech [\[3\]](https://www.reddit.com/r/MachineLearning/comments/7hys85/n_ali_rahimis_talk_at_nipsnips_2017_testoftime/), in which he urged researchers instead to return to their more pure mathematical roots in an attempt to more deeply understand the nature of our solutions. This brought a torrent of criticism, including from the father of deep learning himself, Yann LeCunn, who wrote a scathing rant [\[4\]](https://www.reddit.com/r/MachineLearning/comments/7i1uer/n_yann_lecun_response_to_ali_rahimis_nips_lecture/) in response to Rahimi.
 
