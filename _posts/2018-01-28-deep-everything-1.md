@@ -15,6 +15,66 @@ Andrew Ng, one of the veritable leaders of the deep learning community, seemed t
 
 While such early generative models, championed largely by the Bayesians, were some of the first to show real promise on difficult tasks, they were soon superseded by deep nets. Research interest shifted quickly, and now we live in a world where nearly every paper you read has some deep net connection. Andrew Ng and others like him went from being the face of the Bayesians to the face of deep learning. 
 
-But for all the research into applications and optimization heuristics, deep nets remain shrouded in mystery. From a philosophical standpoint, a mathematical standpoint, and a technical standpoint, much remains to be understood about deep nets and their [unreasonable effectiveness](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+But for all the research into applications and optimization heuristics, deep nets remain shrouded in mystery. From a philosophical standpoint, a mathematical standpoint, and a technical standpoint, much remains to be understood about deep nets and their "unreasonable effectiveness" [\[1\]](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
 The AI practitioner will invariably look with excitement to the neverending parade of Keras diddies that seem to perform human tasks with relative ease and a few kilowatts of GPU juice. But is this dogged focus on one technique truly the best way forward? This series will explore the implications of a research community that has embarked on a path of Deep Everything, and what that means for the future of AI.
+
+### The "magic"
+
+Perhaps the most comonly cited criticism of deep learning is that much of it appears to be "magic" -- there is no intuitive or mathematical explanation for the effectiveness we often ascribe to it, and the philosophical discussion seems to be limited to the simple remark that deep methods appear to learn varying layers of abstraction -- a point that has recently been questioned extensively.
+
+#### Parameter space magic
+
+So what is magical about these machines?
+
+---
+
+**Technical explanation**
+
+The parameter space of a deep net typically numbers in the millions, and while data sets have historically been large (although this has recently been shown not to be a _necessary_ criterion for successful deep learning [\[2\]](https://beamandrew.github.io/deeplearning/2017/06/04/deep_learning_works.html)), the common arguments about high-dimensional geometry that seek to rigorously study overfitting would say any such model would necessarily overfit horribly. However, the commonly used optimization heuristics (which typically involve initialization based on Gaussian noise and some variant of stochastic graident descent) seem to find solutions that generalize shockingly well -- particularly in tasks like image or voice recognition, where humans themselves tend to do well.
+
+---
+
+**Layman's explanation**
+
+The traditional understanding in statistics is that the more the model has to learn in order to make predictions, the more data you need to have -- and it's not one-to-one, the growth of the data needed is widely believed to be exponential in the amount the model needs to learn. Deep nets are unusual in that they need to learn literally millions of parameters -- by way of comparison, your vanilla "linear fit" in Excel needs to learn two parameters -- with a comparable amount of data. There's no way to find the true optimum of such a complex system, so instead we rely on algorithms that search for "good enough" solutions to these millions of parameters. Shockingly, these methods manage to do extremely well -- particularly at tasks like image or voice recognition, where humans themselves tend to do well.
+
+---
+
+So we start with a random solution, and iteratively improve it until it seems, objectively, "pretty good." And, there are usually infinitely many other such solutions that would yield identical results, if we find ourselves along a ridge or saddle. However, we don't concern ourselves with these geometric curiosities -- we instead content ourselves with the fact that the algorithm killed it on the benchmark data set. And that's that.
+
+Indeed, criticism of the magic came into the spotlight when Ali Rahimi referred to deep learning research as "alchemy" in his NIPS "test of time" award speech [\[3\]](https://www.reddit.com/r/MachineLearning/comments/7hys85/n_ali_rahimis_talk_at_nipsnips_2017_testoftime/), in which he urged researchers instead to return to their more pure mathematical roots in an attempt to more deeply understand the nature of our solutions. This brought a torrent of criticism, including from the father of deep learning himself, Yann LeCunn, who wrote a scathing rant [\[4\]](https://www.reddit.com/r/MachineLearning/comments/7i1uer/n_yann_lecun_response_to_ali_rahimis_nips_lecture/) in response to Rahimi.
+
+#### The Kansas City shuffle
+
+This magic solution-finding doesn't come without its flaws. If one aims to deceive a deep learning system, one certainly can. Problem is, many deep nets are remarkably prone to "adversarial perturbations." In other words, small changes to the input data -- small enough that a human wouldn't notice them -- can be engineered to force the net to return virtually anything. That's the Kansas City shuffle: regardless of their phenomental classification accuracy, they can be swiftly tricked by a carefully engineered picture of a dog into predicting that dog is definitely a mongoose.
+
+Obviously there are implications for potential applications. Anything that functions as a "screening mechanism" should clearly avoid deep nets. For example, a group out of Germany successfully engineered malware capable of avoiding detection by neural nets used for malware classication [\[5\]](https://arxiv.org/abs/1606.04435).
+
+It also means embarrassing incidents can arise for software vendors that rely on deep learning. For example, the esteemed Google Photo classifier famously tagged a number of African-American women as "gorillas".[\[6\]](https://www.wnyc.org/story/deep-problem-deep-learning/) The Kansas City shuffle can arise out of nowhere, it would seem, if the scale of deployment is large enough. 
+
+Google responded quickly to the incident, which was announced on Twitter. They temporarily disabled the gorilla classification entirely -- the fire-drill fix, I suppose -- and eventually were able to tune their model to not make that mistake. One can only imagine what other mistakes it might be making -- perhaps less politically and socially sensitive mistakes -- that go unnoticed and unreported.
+
+#### The flipside
+
+Magic may not be science. It may not be good for science. But at the end of the day, engineers don't care much what the purity of the source is if the source is good. There's a place for magic, for sure.
+
+And, understanding the magic may lead us into fantastic parts of science we'd never dreamed. We may learn more not only about statistical methods but about humans and how we learn from information. There is a grand hope to deep learning, for sure, and nothing would be bigger than this. If we understood why it worked, we could fix the adversarial perturbations problem, and likely bring deep learning methodologies to a new level of sophistication. But for the moment, it seems more like a trick in the data science toolbag than a foundational mathematical result.
+
+The question is -- what does this mean for the future of AI?
+
+_(To be continued...)_
+
+---
+
+[\[1\]](http://karpathy.github.io/2015/05/21/rnn-effectiveness/): http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
+[\[2\]](https://beamandrew.github.io/deeplearning/2017/06/04/deep_learning_works.html): https://beamandrew.github.io/deeplearning/2017/06/04/deep\_learning\_works.html
+
+[\[3\]](https://www.reddit.com/r/MachineLearning/comments/7hys85/n_ali_rahimis_talk_at_nipsnips_2017_testoftime/): https://www.reddit.com/r/MachineLearning/comments/7hys85/n\_ali\_rahimis\_talk\_at\_nipsnips\_2017\_testoftime/
+
+[\[4\]](https://www.reddit.com/r/MachineLearning/comments/7i1uer/n_yann_lecun_response_to_ali_rahimis_nips_lecture/): https://www.reddit.com/r/MachineLearning/comments/7i1uer/n\_yann\_lecun\_response\_to\_ali\_rahimis\_nips\_lecture/
+
+[\[5\]](https://arxiv.org/abs/1606.04435): https://arxiv.org/abs/1606.04435
+
+[\[6\]](https://www.wnyc.org/story/deep-problem-deep-learning/): https://www.wnyc.org/story/deep-problem-deep-learning/
