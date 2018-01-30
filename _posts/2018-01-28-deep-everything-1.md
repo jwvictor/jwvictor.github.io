@@ -37,7 +37,7 @@ The parameter space of a deep net typically numbers in the millions, and while d
 
 **Layman's explanation**
 
-The traditional understanding in statistics is that the more the model has to learn in order to make predictions, the more data you need to have -- and it's not one-to-one, the growth of the data needed is widely believed to be exponential in the amount the model needs to learn. Deep nets are unusual in that they need to learn literally millions of parameters -- by way of comparison, your vanilla "linear fit" in Excel needs to learn two parameters -- with a comparable amount of data. There's no way to find the true optimum of such a complex system, so instead we rely on algorithms that search for "good enough" solutions to these millions of parameters. Shockingly, these methods manage to do extremely well -- particularly at tasks like image or voice recognition, where humans themselves tend to do well.
+The traditional understanding in statistics is that the more the model has to learn in order to make predictions, the more data you need to have. And it's not a one-to-one relationship: the growth of the data needed is widely believed to be exponential in the amount the model needs to learn. Deep nets are unusual in that they need to learn literally millions of parameters -- by way of comparison, your vanilla "linear fit" in Excel needs to learn two parameters -- with a comparable amount of data. There's no way to find the true optimum of such a complex system, so instead we rely on algorithms that search for "good enough" solutions to these millions of parameters. Shockingly, these methods manage to do extremely well -- particularly at tasks like image or voice recognition, where humans themselves tend to do well.
 
 ---
 
