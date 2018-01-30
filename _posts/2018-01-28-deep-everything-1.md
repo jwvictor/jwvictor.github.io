@@ -1,7 +1,7 @@
 ---
 layout: category-post
 title:  "Deep Everything (part I)"
-date:   2016-08-05 20:20:56 -0400
+date:   2018-01-29 15:20:56 -0800
 categories: writing
 ---
 
