@@ -29,5 +29,8 @@ social_username: jasonwvictor
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
 theme_color: blue
 
+plugins:
+  - jekyll-feed
+
 # Build settings
 markdown: kramdown
