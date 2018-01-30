@@ -51,7 +51,7 @@ This magic solution-finding doesn't come without its flaws. If one aims to decei
 
 Obviously there are implications for potential applications. Anything that functions as a "screening mechanism" should clearly avoid deep nets. For example, a group out of Germany successfully engineered malware capable of avoiding detection by neural nets used for malware classication [\[5\]](https://arxiv.org/abs/1606.04435).
 
-It also means embarrassing incidents can arise for software vendors that rely on deep learning. For example, the esteemed Google Photo classifier famously tagged a number of African-American women as "gorillas".[\[6\]](https://www.wnyc.org/story/deep-problem-deep-learning/) The Kansas City shuffle can arise out of nowhere, it would seem, if the scale of deployment is large enough. 
+It also means embarrassing incidents can arise for software vendors that rely on deep learning. For example, the esteemed Google Photo classifier famously tagged a number of African-American women as "gorillas" [\[6\]](https://www.wnyc.org/story/deep-problem-deep-learning/). The Kansas City shuffle can arise out of nowhere, it would seem, if the scale of deployment is large enough. 
 
 Google responded quickly to the incident, which was announced on Twitter. They temporarily disabled the gorilla classification entirely -- the fire-drill fix, I suppose -- and eventually were able to tune their model to not make that mistake. One can only imagine what other mistakes it might be making -- perhaps less politically and socially sensitive mistakes -- that go unnoticed and unreported.
 
