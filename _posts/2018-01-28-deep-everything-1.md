@@ -55,6 +55,16 @@ It also means embarrassing incidents can arise for software vendors that rely on
 
 Google responded quickly to the incident, which was announced on Twitter. They temporarily disabled the gorilla classification entirely -- the fire-drill fix, I suppose -- and eventually were able to tune their model to not make that mistake. One can only imagine what other mistakes it might be making -- perhaps less politically and socially sensitive mistakes -- that go unnoticed and unreported.
 
+#### The deep disappearing act
+
+Perhaps nothing irks the data scientist more than the great deep disappearing act. You train a model. You test on some sample data. It looks awesome. You re-train the model to show off your incredible results, and your colleagues are met with... garbage? 
+
+Indeed, the parameter space problem can mean that one training run of a deep net may yield excellent results, yet the very same procedure irreconcilably produces terrible results the next run. LSTMs, widely known for their ability to spin fake Shakespeare or Bible stories, often take several human-assisted cracks at the old optimization apple before converging to a working solution. GANs, widely known for their ability to paint fake bedrooms and faces, are known for having this problem in the form of "mode collapse," which is essentially the phenomenon of a generator getting stuck in a part of parameter space with unusual geometry. (Remember, as deep net researchers, we don't care about high-dimensional geometry.) This makes convergence impossibe, or at least unpredictable -- which, in turn, makes research impossible to reproduce with any certainty.
+
+There's nothing inherently wrong with a human in the loop; in fact, human-assisted methods are probably the subject of more stigma than they deserve. Commercial groups, for example, can easily afford some minor human intervention to get their product just right, unscientific though the process may be. And, there is a new and growing body of theory around "training heuristics" for deep nets, which hope to formalize some understanding of how gradient descent, learning rates, and optimization algorithms play together to produce good results. The ultimate goal would be to avoid just these kinds of problems: uncertainty, failure to converge, difficulty with reproducing results, and so on.
+
+But in academic circles, the inability to reproduce results is a mortal sin. Being able to prove the correctness of an experiment is one of the underpinnings of our globally united scientific ecosystem. Without it, we are stuck with the decision of either a.) trusting all authors to not fudge data or b.) ignoring potentially valuable research because its results are impossible (or very expensive) to reproduce.
+
 #### The flipside
 
 Magic may not be science. It may not be good for science. But at the end of the day, engineers don't care much what the purity of the source is if the source is good. There's a place for magic, for sure.
@@ -78,3 +88,5 @@ _(To be continued...)_
 [\[5\]](https://arxiv.org/abs/1606.04435): https://arxiv.org/abs/1606.04435
 
 [\[6\]](https://www.wnyc.org/story/deep-problem-deep-learning/): https://www.wnyc.org/story/deep-problem-deep-learning/
+
+http://aiden.nibali.org/blog/2017-01-18-mode-collapse-gans/

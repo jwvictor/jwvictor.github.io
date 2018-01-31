@@ -17,7 +17,7 @@ title: Jason W. Victor
 description: For the love of the craft
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#github_repo: jwvictor.github.io # the GitHub repo name for your project
+github_repo: jwvictor.github.io # the GitHub repo name for your project
 github_username: jwvictor
 
 # Optional social link, you can choose from the following options:
