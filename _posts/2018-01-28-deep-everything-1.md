@@ -69,11 +69,11 @@ _(To be continued...)_
 
 [\[1\]](http://karpathy.github.io/2015/05/21/rnn-effectiveness/): http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
-[\[2\]](https://beamandrew.github.io/deeplearning/2017/06/04/deep_learning_works.html): https://beamandrew.github.io/deeplearning/2017/06/04/deep\_learning\_works.html
+[\[2\]](https://beamandrew.github.io/deeplearning/2017/06/04/deep_learning_works.html): https://beamandrew.github.io/deeplearning/....
 
-[\[3\]](https://www.reddit.com/r/MachineLearning/comments/7hys85/n_ali_rahimis_talk_at_nipsnips_2017_testoftime/): https://www.reddit.com/r/MachineLearning/comments/7hys85/n\_ali\_rahimis\_talk\_at\_nipsnips\_2017\_testoftime/
+[\[3\]](https://www.reddit.com/r/MachineLearning/comments/7hys85/n_ali_rahimis_talk_at_nipsnips_2017_testoftime/): https://www.reddit.com/r/MachineLearning/...
 
-[\[4\]](https://www.reddit.com/r/MachineLearning/comments/7i1uer/n_yann_lecun_response_to_ali_rahimis_nips_lecture/): https://www.reddit.com/r/MachineLearning/comments/7i1uer/n\_yann\_lecun\_response\_to\_ali\_rahimis\_nips\_lecture/
+[\[4\]](https://www.reddit.com/r/MachineLearning/comments/7i1uer/n_yann_lecun_response_to_ali_rahimis_nips_lecture/): https://www.reddit.com/r/MachineLearning/...
 
 [\[5\]](https://arxiv.org/abs/1606.04435): https://arxiv.org/abs/1606.04435
 
