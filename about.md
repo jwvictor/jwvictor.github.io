@@ -6,9 +6,9 @@ permalink: /about/
 
 My name is Jason Victor and I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
-### Contracting 
+### Consulting 
 
-I only do contract work under special circumstances or when I'm really interested in the domain.
+I do consulting in a variety of domains. If you have a problem related to machine learning, cryptography, or quantitative finance that you think I may be able to help with, please feel free to contact me at the address below.
 
 ### Contact me
 
