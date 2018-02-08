@@ -5,6 +5,8 @@ date:   2018-02-05 12:00:56 -0800
 categories: writing
 ---
 
+*NOTE: if you're interested in collaborating on post-quantum solutions in the cryptocurrency space, please [contact me here](https://jwvictor.github.io/about/)!*
+
 I recently [announced](https://jwvictor.github.io/writing/2018/02/05/introducting-braids-jl.html) the alpha release of [Braids.jl](https://github.com/jwvictor/Braids.jl), my new braid theory library for Julia. Admittedly, my introduction to the library was largely about the abstract meaning of braids.
 
 After that post, a few people asked me, Jason, why would somebody interested in cryptocurrencies and machine learning care about the abstract topological theory of [braid groups](https://en.wikipedia.org/wiki/Braid_group)?
