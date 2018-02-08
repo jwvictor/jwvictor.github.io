@@ -1,7 +1,7 @@
 ---
 layout: category-post
 title:  "Why braids? Quantum vs. crypto."
-date:   2018-02-05 12:00:56 -0800
+date:   2018-02-08 12:00:56 -0800
 categories: writing
 ---
 
