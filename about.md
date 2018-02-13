@@ -6,7 +6,7 @@ permalink: /about/
 
 My name is Jason Victor, and I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
-I'm *Head of Data Science and AI Initiatives* at [Lumia Capital](http://lumiacapital.com/) and maintainer of [Braids.jl](https://github.com/jwvictor/Braids.jl), the braid group library for [Julia](https://julialang.org/).
+I'm *Head of Data Science and AI Initiatives* at [Lumia Capital](http://lumiacapital.com/); chairman of the [Byteboard Foundation](https://jwvictor.github.io/bbfoundation/), the foundation responsible for maintaining [Byteboard](https://www.byteboard.org); and the maintainer of [Braids.jl](https://github.com/jwvictor/Braids.jl), the open-source braid group library for [Julia](https://julialang.org/).
 
 ### Biography
 
