@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Jason Victor, and I'm the founder and CEO of [Routefire](https://routefire.io/).I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
+My name is Jason Victor, and I'm the founder and CEO of [Routefire](https://routefire.io/). I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
 
 ### Biography
