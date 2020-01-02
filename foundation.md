@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Byteboard Foundation
+title: BBF 
 permalink: /byteboard/
 ---
 
