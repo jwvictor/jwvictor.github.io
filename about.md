@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<script src="https://zetabase.io/static/assets/js/zetabase.js" type="text/javascript"></script>
+
 My name is Jason Victor, and I'm the founder and CEO of [Routefire](https://routefire.io/). I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
 
