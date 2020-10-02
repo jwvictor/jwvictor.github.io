@@ -29,4 +29,33 @@ It is an open question to what extent braids can be applied in cryptography -- a
 
 One other cool thing in `Braids.jl`: it turns out that braids can be "represented" (meaning, linearly) as a matrix of integer polynomials in _t_ and _t^-1_. Multiplying together the matrices of two braids will give a matrix corresponding to the product of the two braids. For braid groups on two and three strands, the mapping is one-to-one. For five and more strands, it is known that there are single matrices that correspond to two distinct braids -- in math lingo, the kernel is nontrivial, or the representation is not _faithful_. Interestingly, it remains an open question whether the representation is faithful for _n_ = 4. Perhaps some user of this library will be the one to figure it out!
 
-_Updated September 2, 2020_
+_Updated September, 2020_
+
+<div id="comments" class="zp-main">
+  <div class="zp-inputs">
+      <p>
+          <span class="zp-br">&nbsp;</span>
+          <span class="zp-description"> </span>
+      </p>
+      <p class="zp-help-message">&nbsp;</p>
+      <p><span class="zp-input-label"> </span></p>
+      <input  type="text" />
+      <p><span class="zp-pass-label"> </span></p>
+      <input type="password" />
+      <div class="zp-comments-edit-profile">
+          <p><span class="zp-textarea-description">Description</span></p>
+          <textarea></textarea>
+      </div>
+  </div>
+  <div class="zp-comments-links">
+      <a class="zp-submit-link zp-form-link" href="#">submit</a>
+      <a class="zp-signup-link zp-form-link" href="#">signup</a>
+      <a class="zp-login-link zp-form-link" href="#">login</a>
+      <a class="zp-edit-profile-link zp-form-link" href="#">edit profile</a>
+  </div>
+  <div class="zp-comments"></div>
+</div>
+<script>
+  // Takes ID, subuser token, div ID, and options. 
+  commentsify('044afe26-7cf1-44b6-a27a-a2303a30e655', 'cjs_token', 'comments', {layout: "standard", auth: "3pa"})
+</script>
