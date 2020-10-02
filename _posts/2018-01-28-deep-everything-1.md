@@ -90,3 +90,5 @@ _(To be continued...)_
 [\[6\]](https://www.wnyc.org/story/deep-problem-deep-learning/): https://www.wnyc.org/story/deep-problem-deep-learning/
 
 [\[7\]](http://aiden.nibali.org/blog/2017-01-18-mode-collapse-gans/): http://aiden.nibali.org/blog/2017-01-18-mode-collapse-gans/
+
+_Updated September 2, 2020_
