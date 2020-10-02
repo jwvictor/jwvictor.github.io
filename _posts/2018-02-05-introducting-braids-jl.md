@@ -28,3 +28,6 @@ Braids have been studied extensively as a possible base group for post-quantum c
 It is an open question to what extent braids can be applied in cryptography -- and one I personally care a lot about, which is what motivated me to build `Braids.jl`. I hope a platform for manipulating braids on top of Julia -- which gives researchers the power of massively parallel computing if necessary, or near-C speed at the very least -- will help stimulate just that sort of research.
 
 One other cool thing in `Braids.jl`: it turns out that braids can be "represented" (meaning, linearly) as a matrix of integer polynomials in _t_ and _t^-1_. Multiplying together the matrices of two braids will give a matrix corresponding to the product of the two braids. For braid groups on two and three strands, the mapping is one-to-one. For five and more strands, it is known that there are single matrices that correspond to two distinct braids -- in math lingo, the kernel is nontrivial, or the representation is not _faithful_. Interestingly, it remains an open question whether the representation is faithful for _n_ = 4. Perhaps some user of this library will be the one to figure it out!
+
+
+{% include comments.html %}
