@@ -23,11 +23,11 @@ github_username: jwvictor
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
 social_link: twitter
-social_username: traderoutefire
+social_username: routefireio
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: blue
+theme_color: white
 
 plugins:
   - jekyll-feed
