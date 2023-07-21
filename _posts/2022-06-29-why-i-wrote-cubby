@@ -20,7 +20,7 @@ all find it useful as well.
 I wanted a way to interact with my personal data -- notes, to-do lists, config files, and so on -- that was fast, efficient, end-to-end encrypted, and centered around
 a command-line interface. To be clear, I don't mean a CLI _utility_, a companion to some larger app
 or service, but rather an experience designed from the ground up for the command-line. With Cubby, all
-my personal data is just a few keystrokes away; my default editor is the highly-powered `vim`, which
+my personal data is just a few keystrokes away; my default editor is the highly-powered `nvim`, which
 lets me edit my stuff -- again -- _efficiently_. With the help of macros and buffers and yanks.
 
 Likewise, important files, such as cryptographic keys and identity files, are immediately available
