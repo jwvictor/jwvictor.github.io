@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://zetabase.io/static/assets/js/zetabase.js" type="text/javascript"></script>
-
 My name is Jason Victor, and I'm an entrepreneur and engineer living in Miami, Florida, USA. Previously, I was founder and CEO of [Routefire](https://routefire.io/), which was acquired by Coinbase in 2021. I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
 
