@@ -16,7 +16,7 @@ Jason Victor is an entrepreneur, data scientist, and engineer living in Miami. I
 
 ### Consulting 
 
-I do consulting in a variety of domains. If you have a problem related to machine learning, cryptography, or quantitative finance that you think I may be able to help with, please feel free to contact me at the address below.
+I do consulting in a variety of domains. If you have a problem related to machine learning, cryptography/cryptocurrencies, or quantitative finance that you think I may be able to help with, please feel free to contact me at the address below.
 
 ### Contact me
 
