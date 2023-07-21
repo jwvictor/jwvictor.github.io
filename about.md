@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Jason Victor, and I'm an entrepreneur and engineer living in Miami, Florida, USA. Previously, I was founder and CEO of [Routefire](https://routefire.io/), which was acquired by Coinbase in 2021. I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
+My name is Jason Victor, and I'm an entrepreneur and engineer living in Miami, Florida, USA. I am currently the Founder of [Toggle](https://www.hellotoggle.com), which is bringing new sanity to streaming video fans by allowing them to pause and resume subscriptions quickly and easily. Previously, I was founder and CEO of [Routefire](https://routefire.io/), which was acquired by Coinbase in 2021. I'm also the creator of [Cubby CLI](https://www.cubbycli.com), the command-liners tool of choice for storing, protecting, and sharing personal data. I'm interested in machine learning, cryptography and cryptocurrencies, engineering, mathematics, economics, and entrepreneurship.
 
 
 ### Biography
@@ -20,3 +20,9 @@ I do consulting in a variety of domains. If you have a problem related to machin
 *LinkedIn Profile*: [https://www.linkedin.com/in/jason-victor-85700954/](https://www.linkedin.com/in/jason-victor-85700954/)
 
 *Email*: [jasonvproject@gmail.com](mailto:jasonvproject@gmail.com)
+
+### Links
+
+- [Toggle](https://www.hellotoggle.com)
+
+- [Cubby](https://www.cubbycli.com)
