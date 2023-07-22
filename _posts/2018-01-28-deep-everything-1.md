@@ -91,3 +91,6 @@ _(To be continued...)_
 
 [\[7\]](http://aiden.nibali.org/blog/2017-01-18-mode-collapse-gans/): http://aiden.nibali.org/blog/2017-01-18-mode-collapse-gans/
 
+
+
+(Version: 0.2)

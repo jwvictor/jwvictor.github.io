@@ -31,3 +31,5 @@ One other cool thing in `Braids.jl`: it turns out that braids can be "represente
 
 
 
+
+(Version: 0.2)

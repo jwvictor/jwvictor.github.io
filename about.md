@@ -26,3 +26,6 @@ I do consulting in a variety of domains. If you have a problem related to machin
 - [Toggle](https://www.hellotoggle.com)
 
 - [Cubby](https://www.cubbycli.com)
+
+
+(Version: 0.2)
