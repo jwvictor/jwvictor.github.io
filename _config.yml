@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jason W. Victor
-description: For the love of the craft
+description: Entrepreneur, engineer extraordinaire
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: jwvictor.github.io # the GitHub repo name for your project
+github_repo: cubby # the GitHub repo name for your project
 github_username: jwvictor
 
 # Optional social link, you can choose from the following options:
@@ -27,7 +27,7 @@ social_username: routefireio
 
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
-theme_color: white
+theme_color: black
 
 plugins:
   - jekyll-feed
