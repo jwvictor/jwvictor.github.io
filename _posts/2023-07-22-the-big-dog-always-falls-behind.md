@@ -1,9 +1,11 @@
 ---
 layout: category-post
-title:  "The Demise of Scott Toilet Paper: An Innovation Story"
+title:  "Startup Lessons: The Decline of Scott Toilet Paper"
 date:   2023-07-22 12:00:56 -0800
 categories: writing
 ---
+
+**This post is (hopefully) the first in a series of my musings on entrepreneurship and lessons I've learned along the way.** 
 
 One time, in my younger and more vulnerable years, I was living in Manhattan and got home late at night only to find that I was out of toilet paper. Not a problem -- it's New York, and there are bodegas open at all hours.
 
@@ -19,7 +21,7 @@ The story, it seems, is a tale as old as time. Incompetence at all levels, layer
 
 Indeed! -- the article goes on to explain -- their first mover advantage had given them a competitive edge in both the toilet paper and pre-moistened wipe categories. But unfortunately, Scott's engineers had to back-burner their plans to capitalize on these opportunities when existing machinery down at their toilet paper plants started uncontrollably catching fire and breaking. 
 
-And as a technology industry guy myself, I recognize this set of symptoms all too well: it's the big-company, fat-and-happy, shirtsleeves-to-shirtsleeves story. It's a tale of how companies become addicted to luxuries they never had before, like a sea of available credit, or the resources to put a management layer between the boss and the chaos. As they accept these luxuries, they make themselves less nible, less agile, now reliant on huge amouts of money and people just to keep running.
+And as a technology industry guy myself, I recognize this set of symptoms all too well: it's the big-company, fat-and-happy, shirtsleeves-to-shirtsleeves story. It's a tale of how companies become addicted to luxuries they never had before, like a sea of available credit, or the resources to put a management layer between the boss and the chaos. As they accept these luxuries, they make themselves less nimble, less agile, now reliant on huge amouts of money and people just to keep running.
 
 They become less culturally willing to change anything, as people become more focused on not losing their cushy position than trying to actually increase shareholder value. They end up with a line of toilet paper that isn't made to a modern standard, and they wonder aloud why they're losing market share, despite knowing full well that they'd never buy Scott toilet paper in their own homes.
 
