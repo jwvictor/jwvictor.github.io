@@ -7,7 +7,7 @@ categories: writing
 
 _By Jason Victor_
 
-If you want to get chicks _and_ take notes on the command line, then this post is for you. We're going to explain in detail how to set up the awesome cloud storage tool by the name of [Cubby](https://www.github.com/jwvictor/cubby), as well as its [Neovim plugin](https://www.github.com/jwvictor/nvim-cubby). 
+If you're a 10x ninja Chad _and_ you take notes on the command line, then this post is for you. We're going to explain in detail how to set up the awesome cloud storage tool by the name of [Cubby](https://www.github.com/jwvictor/cubby), as well as its [Neovim plugin](https://www.github.com/jwvictor/nvim-cubby). 
 
 With this setup, you'll be able to make end-to-end encrypted notes (called "blobs" in Cubby) that get stored in the cloud. These blobs are accessible from the command line or inside Neovim, they maintain full version histories, they can be grepped (even if encrypted), they can be published to the Internet with a single command, and they can be used with UNIX pipes just like local files. And, all of this can be done with the paranoid security profile a true Chad deserves, wherein no sensitive data is ever stored to disk. 
 
@@ -187,7 +187,7 @@ $ cubby publish put chad:other-key
 
 Now, follow the web link as before, and you'll see that the post page is requesting a passphrase. If you provide the correct passphrase, the data will be decrypted inside your browser and rendered as HTML. This is because Cubby blobs are truly end-to-end encrypted, and the page you're looking at only has access to the ciphertext for your post.
 
-There are many other interesting features in Cubby, but this should be enough for you to clown on the beta male `nano` users.
+There are many other interesting features in Cubby, but this should be enough for you to clown on the `nano` users.
 
 ## Using Cubby with Neovim
 
