@@ -1,6 +1,6 @@
 ---
 layout: category-post
-title:  "Startup Lessons: The Decline of Scott Toilet Paper"
+title:  "How to take notes like a Chad with Neovim"
 date:   2023-07-22 12:00:56 -0800
 categories: writing
 ---
@@ -249,3 +249,5 @@ This means that any kind of crazy company spyware on your work computer won't be
 ## Conclusion
 
 So if you're ready to take the dive into managing your personal data like an actual boss and not a neophyte, I encourage you to check out Cubby. It has all the sauce your tech-savvy user needs without any of the headaches. And best of all, it's 100% free and open-source and always will be.
+
+(v. 0.2)
