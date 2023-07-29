@@ -1,14 +1,11 @@
 ---
 layout: category-post
 title:  "How to take notes like a Chad with Neovim"
-date:   2023-07-22 12:00:56 -0800
+date:   2023-07-29 04:00:56 -0800
 categories: writing
 ---
 
-# How to take notes like a Chad with Neovim
-
 _By Jason Victor_
-_7/25/23_
 
 If you want to get chicks _and_ take notes on the command line, then this post is for you. We're going to explain in detail how to set up the awesome cloud storage tool by the name of [Cubby](https://www.github.com/jwvictor/cubby), as well as its [Neovim plugin](https://www.github.com/jwvictor/nvim-cubby). 
 
